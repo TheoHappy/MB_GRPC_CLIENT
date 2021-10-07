@@ -1,0 +1,9 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(—³¡¸8ç½òŞÅ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÃÌ‘÷øÿÿÿÿ8ç½òŞÅ/
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(°»ğÒûÿÿÿÿ8ç½òŞÅ/
+v
+java:S1450"TRemove the "topic" field and declare it as a local variable in the relevant methods.(ÖáòØşÿÿÿÿ8ç½òŞÅ/
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ËÅ×©ûÿÿÿÿ8¨„ÂàÅ/
+u
+java:S1450"SRemove the "port" field and declare it as a local variable in the relevant methods.(É¾Öâùÿÿÿÿ8ç½òŞÅ/

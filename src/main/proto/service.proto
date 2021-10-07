@@ -1,0 +1,28 @@
+syntax = "proto3";
+package com.example.grpc;
+
+message receivedMessage{
+  string message  = 2;
+  string topic = 3;
+}
+
+message newResponse {
+  string isSuccess = 1;
+}
+
+message subscribeRequest {
+  string address = 1;
+  string topic = 2;
+}
+
+message subscribeResponse{
+  string isSuccess = 1;
+  repeated receivedMessage message = 2;
+}
+
+service messageReceiver {
+  rpc receive(receivedMessage)  returns (newResponse);
+}
+service subscribeService {
+  rpc subscribe(subscribeRequest) returns (stream subscribeResponse);
+}

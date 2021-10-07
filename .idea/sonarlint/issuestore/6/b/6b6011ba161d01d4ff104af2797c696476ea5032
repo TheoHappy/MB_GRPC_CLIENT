@@ -1,0 +1,18 @@
+
+F
+java:S1128"0Remove this unused import 'java.lang.System.in'.(î€¼Æ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(½ åÈúÿÿÿÿ
+E
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ
+P
+java:S1128	":Remove this unused import 'io.grpc.ManagedChannelBuilder'.(­ŸÅ°
+N
+java:S1128"3Remove this unused import 'io.grpc.ManagedChannel'.(ÝŸ÷ƒùÿÿÿÿ
+?
+java:S1128")Remove this unused import 'io.grpc.Grpc'.(¦à˜—
+]
+java:S1128"BRemove this unused import 'com.example.grpc.subscribeServiceGrpc'.(¦ˆðÝúÿÿÿÿ
+@
+java:S1128
+"+Remove this unused import 'io.grpc.Server'.(ì‰“
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ¶‘–
